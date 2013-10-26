@@ -1,0 +1,29 @@
+{
+  "name": "gyro-cli",
+  "version": "0.0.1",
+  "description": "Gyro is a sandwich made usually of sliced roasted lamb, onion, and tomato on pita bread, but this one is a command line utility for nodecopter",
+  "main": "bin/gyro.js",
+  "bin": {
+    "gyro-cli": "gyro.js"
+  },
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ardrone",
+    "nodecopter"
+  ],
+  "author": "Yuya Saito",
+  "license": "MIT",
+  "dependencies": {
+    "ar-drone": "git://github.com/felixge/node-ar-drone",
+    "optimist": "~0.6.0"
+  },
+  "devDependencies": {
+    "tape": "~2.0.0"
+  }
+}

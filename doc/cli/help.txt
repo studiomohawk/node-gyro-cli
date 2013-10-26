@@ -1,0 +1,14 @@
+Usage: gyro [options] [commands]
+
+Description:
+
+  Gyro is a sandwich made usually of sliced roasted lamb, onion, and tomato on pita bread, but this one is a command line utility for nodecopter.
+
+Commands:
+
+  demo                Demo flight. 1) take off 2) rotate 3) land
+  land                Make the drone land
+  fly                 Make the drone takeoff
+  status              Show sensor data
+  repl                Start read-eval-print loop (REPL)
+  reset               Fix the emergency mode. Refer: http://d.pr/8syq

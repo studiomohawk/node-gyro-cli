@@ -3,15 +3,13 @@
   "version": "0.0.1",
   "description": "Gyro is a sandwich made usually of sliced roasted lamb, onion, and tomato on pita bread, but this one is a command line utility for nodecopter",
   "main": "./bin/gyro.js",
-  "bin": {
-    "gyro": "./bin/gyro.js"
-  },
   "directories": {
     "doc": "doc",
     "test": "test"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tap test/*.js",
+    "gyro": "./bin/gyro.js"
   },
   "keywords": [
     "ardrone",
